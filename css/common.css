@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 1px;
+  word-break: break-all;
+  color: #888;
+}
+a {
+  text-decoration: none;
+  color: #888;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  width: 100%;
+  display: inline-block;
+}
+
+header .logo {
+  position: absolute;
+  padding: 10px 0 0 20px;
+}
+
+header .logo img {
+  width: 175px;
+  height: auto;
+  z-index: 2;
+}
+
+header .navbar ul {
+  display: flex;
+  float: right;
+  position: relative;
+  margin: 15px 0;
+}
+
+header .navbar ul li {
+  margin: 30px 20px 0;
+}
+
+header .navbar ul li a {
+  color: #555;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+header .navbar ul li a:hover {
+  color: #75a9ff;
+}
