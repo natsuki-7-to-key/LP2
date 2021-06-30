@@ -24,6 +24,8 @@ header {
 header .logo {
   position: absolute;
   padding: 10px 0 0 20px;
+  margin-left: 20px;
+  margin-top:20px;
 }
 
 header .logo img {
@@ -424,7 +426,8 @@ footer {
 }
 
 .pages .grid li {
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 2;
   margin-bottom: 10px;
   text-decoration: none;
 }
@@ -440,7 +443,7 @@ footer {
 .mail {
   font-weight: bold;
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
   margin-top: 10px;
   color: #fff;
 }
@@ -640,7 +643,7 @@ p {
   line-height: 2;
 }
 
-.faq .more {
+.faq .btn {
   width: unset;
   margin: 0 70px;
 }
@@ -685,13 +688,14 @@ p {
   padding: 56px;
 }
 
+.faq .txt ul li,
+p {
+  line-height: 2;
+}
+
 .faq .btn{
   width: unset;
   margin: 0 60px;
-}
-
-.faq .btn:hover {
-  opacity: 0.7;
 }
 
 .news .txt {
