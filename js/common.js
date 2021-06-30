@@ -1,5 +1,3 @@
-<script type="text/javascript" src="js/common.js"></script>
-
 window.onunload = function() {};
 
 function sizecheck() {
