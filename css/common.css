@@ -566,6 +566,11 @@ body.nav-open header .drawer:after {
 
 @media screen and (max-width: 480px) {
 
+header {
+  width: 100%;
+  display: inline-block;
+}
+
 header a.logo img {
   width: 110px;
 }
@@ -579,6 +584,10 @@ header .drawer {
 }
 .font1 small {
   font-size: 18px;
+}
+
+.inner {
+  width: 100%;
 }
 
 .top .top_img {
@@ -635,7 +644,8 @@ header .drawer {
 }
 
 .faq .txt {
-  padding: 50px 30px;
+  padding: 50px 10px;
+  width: 80%;
 }
 
 .faq .txt ul li,
@@ -673,6 +683,7 @@ p {
 .pages li {
   font-size: 9px;
   margin-bottom: 5px;
+  margin-right:5px;
 }
 
 .mail {
@@ -685,7 +696,7 @@ p {
 .faq .txt {
   width: 80%;
   margin: 0 auto;
-  padding: 56px;
+  padding: 30px;
 }
 
 .faq .txt ul li,
@@ -695,13 +706,13 @@ p {
 
 .faq .btn{
   width: unset;
-  margin: 0 60px;
+  margin: 30px 60px 0;
 }
 
 .news .txt {
   width: 80%;
   margin: 0 auto;
-  padding: 56px;
+  padding: 20px;
 }
 
 .contact_btn .btn {
@@ -739,4 +750,16 @@ p {
 .pages .grid li:hover {
   text-decoration: underline;
 }
+}
+
+@media screen and (max-width: 380px) {
+
+footer {
+  padding: 20px 30px;
+}
+
+.pages .grid {
+  margin-bottom: 10px;
+}
+
 }
